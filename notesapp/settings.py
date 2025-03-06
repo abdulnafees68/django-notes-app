@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Ensure Django runs on all network interfaces
+python manage.py runserver 0.0.0.0:8001
 
 # Application definition
 
